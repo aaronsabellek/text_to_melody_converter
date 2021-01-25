@@ -85,10 +85,10 @@ def convert(text_name):
     return freq_list
 
 
-#function to play the converted melody
+#function to play the converted melody (interaction with pyo package or other sound-generating tool required)
 #adjust duration of single note in seconds
 def play(freq_list, synth, duration):
     for frequency in freq_list:
-        synth.freq = frequency
+        synth.freq = frequency #the method .freq is part of the syntax of pyo
         sleep(duration)
     synth.freq = 0
