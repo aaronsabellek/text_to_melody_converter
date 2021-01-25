@@ -8,7 +8,7 @@ from text_to_melody_converter import Connect, convert, play
 from pyo import *
 
 
-#create object of Connect-class to connect characters to frequencies
+#create object of Connect() to connect characters to frequencies
 connect = Connect()
 
 
@@ -23,7 +23,7 @@ s.start()
 
 #create or upload sounds using pyo (http://ajaxsoundstudio.com/pyodoc/)
 #saw- and sine-waves for illustration
-#take freqs from Connect-class
+#take freqs from Connect()
 bg_synth_1 = SuperSaw(freq=connect.c/2, mul=0.1).out() #saw-wave for background (left)
 bg_synth_2 = SuperSaw(freq=connect.c, mul=0.1).out(1) #saw-wave for background (right)
 
