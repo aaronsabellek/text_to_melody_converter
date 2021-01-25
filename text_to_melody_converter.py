@@ -60,7 +60,7 @@ class Connect():
 
 #function to convert a text file into a list of frequencies
 def convert(text_name):
-    #create an object of Connect-class to connect characters to frequencies
+    #create an object of Connect() to connect characters to frequencies
     connect = Connect()
     
     #read text file and safe as string
@@ -89,6 +89,6 @@ def convert(text_name):
 #adjust duration of single note in seconds
 def play(freq_list, synth, duration):
     for frequency in freq_list:
-        synth.freq = frequency #the method .freq is part of the syntax of pyo
+        synth.freq = frequency #the method .freq used in this function is part of the syntax of pyo
         sleep(duration)
     synth.freq = 0
