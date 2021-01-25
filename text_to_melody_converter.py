@@ -8,7 +8,7 @@ import codecs
 from time import sleep
 
 
-#cclass to connect characters to frequencies
+#class to connect characters to frequencies
 class Connect():
     #create reference frequencies (equal temperament)
     h = 246.942
