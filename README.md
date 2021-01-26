@@ -1,7 +1,7 @@
 # text-to-melody-converter
-Simple **Python module to convert text into melodies**.
+Simple **Python script to convert text into melodies**.
 
-The module contains one class and two functions:
+The script contains one class and two functions:
 
 The **class Connect()** connects characters to certain frequencies in a dictionary. It has to be imported to let the function convert() work. It also contains reference frequencies (c-h) that can be used.
 
