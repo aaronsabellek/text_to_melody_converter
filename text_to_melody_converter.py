@@ -1,5 +1,3 @@
-##!/usr/bin/env/ python3
-
 #simple python script to convert text into melodies
 #by Aaron Sabellek
 
