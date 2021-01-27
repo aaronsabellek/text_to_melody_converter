@@ -1,4 +1,4 @@
-# text-to-melody-converter
+# text_to_melody_converter
 Simple **Python script to convert text into melodies**.
 
 The script contains one class and two functions:
