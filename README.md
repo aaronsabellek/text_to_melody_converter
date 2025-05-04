@@ -1,7 +1,7 @@
 # text_to_melody_converter
 Simple **Python script to convert text into melodies**.
 
-You have to install the pyo package (http://ajaxsoundstudio.com/pyodoc/) for the script to work using pip (http://ajaxsoundstudio.com/pyodoc/download.html).
+You have to install the pyo package (http://ajaxsoundstudio.com/pyodoc/) for the script to work, using pip (http://ajaxsoundstudio.com/pyodoc/download.html).
 
 The script contains one class and two functions:
 
